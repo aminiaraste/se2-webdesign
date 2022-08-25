@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr.seiz{
+            height: 50px;
+        }
+        table.center {
+            margin-left: auto; 
+            margin-right: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 400px;
+            
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" class="center" >
+        <tr class="seiz">
+            <td align="center" >
+                <input type="text" placeholder="name" style="text-align: right">
+            </td>
+            <td align="right" >نام</td>
+        </tr>
+        <tr class="seiz">
+            <td align="center">
+                <input type="email" placeholder="email" style="text-align: right">
+            </td>
+            <td rowspan="2" align="right">ایمیل </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center">
+                <input type="password" id="pass" value="...." style="text-align: right">
+            </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" >
+                <input type="date" value="2018-07-22">
+            </td>
+            <td align="right">تاریخ تولد </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" >
+                <input type="number" value="27" style="text-align: right">
+            </td>
+            <td align="right" >سن </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" >
+                <input type="color" value="#00ff00">
+            </td>
+            <td align="right" >رنگ مورد علاقه </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center"  style="padding: 20px">
+                😷ماسک میزنم <input type="radio" name="frage" >
+                <br>
+                😬ماسک نمیزنم <input type="radio" name="frage" >
+            </td>
+            <td align="right" > ماسک میزنی یا نهه؟</td>
+        </tr>
+        <tr class="seiz">
+            <td align="center"  style="padding: 20px">
+                🍌<input type="checkbox">🍑<input type="checkbox">🍇<input type="checkbox">🍓<input type="checkbox">🥝<input type="checkbox">
+            </td>
+            <td align="right" > میوه مورد علاقه</td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" >
+                <select name="country" id="">
+                    <option value="ایران" selected>ایران</option>
+                    <option value="امریکا">امریکا</option>
+                </select>
+            </td>
+            <td align="right" >کشور </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" >
+                <textarea name="mytexterea" id="" cols="25" rows="9"  style="padding: 10px ; margin:10px ; text-align: right; " placeholder="هرجه میخواهد دل تنگت بگو"></textarea>
+            </td>
+            <td align="right" >زندگینامه </td>
+        </tr>
+        <tr class="seiz">
+            <td align="center" colspan="2"  >
+                <input type="submit" value="نام نویسی">
+            </td>
+        </tr>
+        
+
+    </table>
+</body>
+</html>
